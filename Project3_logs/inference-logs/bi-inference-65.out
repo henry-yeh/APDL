@@ -1,0 +1,23 @@
+Thu Dec 15 12:03:51 2022       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 515.65.01    Driver Version: 515.65.01    CUDA Version: 11.7     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  NVIDIA GeForce ...  On   | 00000000:4F:00.0 Off |                  N/A |
+| 30%   22C    P8    28W / 350W |      0MiB / 24576MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+1.8.1+cu111
+Namespace(ignore_case=False, order=4, ref='iwslt14.rdrop.de-en-ckpt/result.gen.ref', sacrebleu=False, sentence_bleu=False, sys='iwslt14.rdrop.de-en-ckpt/result.gen.sys')
+BLEU4 = 36.97, 70.2/45.2/31.2/21.8 (BP=0.965, ratio=0.965, syslen=127483, reflen=132086)
